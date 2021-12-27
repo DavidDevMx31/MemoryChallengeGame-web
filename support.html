@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ Memory Challenge - The Game</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="app,ios,memory,play,game,challenge">
+    <meta name="description" content="FAQ Memory Challenge - The Game">
+    <meta name="author" content="David Mendoza">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/support.css">
+</head>
+<body>
+    <div class="container">
+        <div id="iconDiv" class="row my-5 justify-content-center">
+            <img src="images/memoryChallengeLogo.png" class="rounded" alt="Memory challenge the game icon">
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h1 class="text-left" style="padding-left:1em; padding-right:1em;">FAQ Memory Challenge - The Game</h1>
+            </div>
+        </div>
+    
+        <div class="accordion" id="myAccordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne">1) What is Memory Challenge - The Game?</button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#myAccordion">
+                    <div class="card-body">
+                        <p>'Memory Challenge - The Game' is an app that aims to help enhance your memory through games where you must remember and repeat sequences of elements.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo">2) What game modes can I play?</button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#myAccordion">
+                    <div class="card-body">
+                        <p>The app has 4 different game modes:</p>
+                        <ol>
+                            <li><u>Classic mode</u>: the user has to repeat the elements in the same order in which they appear.</li>
+                            <li><u>Reverse mode</u>: the user has to repeat the elements in reverse order i.e. from the last to the first element of the sequence.</li>
+                            <li><u>Random mode</u>: each round, the game generates a different sequence. The user has to repeat it in the same order in which the elements appear.</li>
+                            <li><u>Mixed mode</u>: the user has to repeat the sequence in the order specified at the beginning. Every 5 rounds, a new sequence is generated and the order to enter the elements may change.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree">3) How can I unlock the "Random" and "Mixed" game modes?</button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#myAccordion">
+                    <div class="card-body">
+                        <p>You can unlock each game mode via In-app purchases.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                        <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour">4) Can I remove the ads?</button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#myAccordion">
+                    <div class="card-body">
+                        <p>Ads help us monetizing the app and we try to introduce them without disrupting the app experience. You can remove ads via in-app purchases.</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                        <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour">5) I found a bug, what can I do?</button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#myAccordion">
+                    <div class="card-body">
+                        <p>If you find a bug in the app, do not hesitate to send an email to: davmendev.apps@gmail.com</p>
+                        <p>If the bug is UI related (like an overlapping button or an element that does not fit in the screen), please take a screenshot and attach it to your email.</p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    
+
+</body>
+</html>

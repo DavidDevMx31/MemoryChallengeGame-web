@@ -1,0 +1,31 @@
+body {
+    background-color: #F5F5F5;
+    color: #041426;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #112C64;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #112C64;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 1em;
+}
+
+#iconDiv {
+    background-color: #112C64;
+}
