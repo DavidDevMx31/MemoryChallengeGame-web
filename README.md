@@ -1,2 +1,2 @@
-# MemoryChallengeGame-web
-Web page for support information, terms & conditions, privacy policy and promotion of 'Memory Challenge - The Game' app.
+# Rote Games
+Web page for support information, terms & conditions, privacy policy and promotion of 'Rote Games' app.
